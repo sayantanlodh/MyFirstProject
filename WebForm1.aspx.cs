@@ -13,5 +13,12 @@ namespace MyFirstProject
         {
 
         }
+
+        protected void btnAdd_Click(object sender, EventArgs e)
+        {
+            int a = Convert.ToInt32(txtNumber1.Text) + Convert.ToInt32(txtNumber2.Text);
+            lblResult.Text = a.ToString();
+
+        }
     }
 }
