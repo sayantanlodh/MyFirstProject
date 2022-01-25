@@ -11,7 +11,16 @@ namespace MyFirstProject
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            try
+            {
+                int a = Convert.ToInt32(txtNumber1.Text) + Convert.ToInt32(txtNumber2.Text);
+                lblResult.Text = a.ToString();
+            }
+            catch
+            {
 
+                lblResult.Text = "Error";
+            }
         }
     }
 }
