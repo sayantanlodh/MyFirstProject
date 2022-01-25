@@ -14,6 +14,7 @@
 
         </div>
         <asp:TextBox ID="txtNumber1" runat="server">0</asp:TextBox>
+
         <asp:TextBox ID="txtNumber2" runat="server">0</asp:TextBox>
         <p>
             <asp:Button ID="btnAdd" runat="server" Text="Add 2 number" OnClick="btnAdd_Click" />
