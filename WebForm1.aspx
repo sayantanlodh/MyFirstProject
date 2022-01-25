@@ -11,6 +11,8 @@
         <div>
               <h3> Hello Rajib </h3>
             <h3> Welcome </h3>
+            <asp:Label ID="lblfk" runat="server" Text="Midfk"></asp:Label>
+
 
               <p> &nbsp;</p>
 
