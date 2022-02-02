@@ -6,7 +6,7 @@
 <head runat="server">
     <title></title>
 </head>
-<body>
+<body style="background-color:powderblue">
     <form id="form1" runat="server">
         <div>
               <h1>
@@ -18,6 +18,9 @@
             <a href="https://www.w3schools.com">
                this is a link
             </a>
+
+            <img src="img_girl.jpg" width="200" height="342">
+
               <h3> Hello Rajib </h3>
             <h3> Welcome </h3>
             <asp:Label ID="lblfk" runat="server" Text="aaa"></asp:Label>
